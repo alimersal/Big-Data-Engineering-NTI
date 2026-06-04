@@ -1,6 +1,8 @@
-# Big Data Engineering - NTI
+# 🚀 Big Data Engineering — NTI
 
-This repository contains lab assignments, practice exercises, and study materials completed during the Big Data Engineering track at NTI (National Telecommunication Institute).
+Welcome to the **NTI Big Data Engineering** repository. This project serves as a comprehensive workspace containing practical lab assignments, design architectures, processing scripts, and case studies completed during the Big Data Engineering track at the **National Telecommunication Institute (NTI)**.
+
+`#hdfs` &nbsp; `#hbase` &nbsp; `#mapreduce` &nbsp; `#pyspark` &nbsp; `#hive` &nbsp; `#big-data` &nbsp; `#nti`
 
 <p align="left">
   <img src="https://img.shields.io/badge/Hadoop-HDFS-CC292B?style=flat-square&logo=apachehadoop&logoColor=white&labelColor=1F2937" alt="HDFS" height="24" />&nbsp;&nbsp;
