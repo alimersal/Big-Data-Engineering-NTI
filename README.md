@@ -1,5 +1,14 @@
 # Big Data Engineering - NTI
 
+<p align="center">
+  <img src="https://img.shields.io/github/repo-size/alimersal/Big-Data-Engineering-NTI?style=for-the-badge&color=blue" alt="Repo Size" />
+  <img src="https://img.shields.io/github/languages/top/alimersal/Big-Data-Engineering-NTI?style=for-the-badge&color=yellow" alt="Top Language" />
+  <br />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" alt="Apache Spark" />
+  <img src="https://img.shields.io/badge/Hadoop-EEEEEE?style=for-the-badge&logo=apachehadoop&logoColor=black" alt="Hadoop" />
+</p>
+
 This repository contains lab assignments, practice exercises, and study materials completed during the Big Data Engineering track at NTI (National Telecommunication Institute).
 
 ---
@@ -41,4 +50,7 @@ Step-by-step MapReduce program implementations using Python (`map.py` & `reduce.
 
 ---
 
-**Author:** Ali Mersal (ali.m.mersal@gmail.com)
+## 📩 Contact
+<a href="mailto:ali.m.mersal@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge" />
+</a>
