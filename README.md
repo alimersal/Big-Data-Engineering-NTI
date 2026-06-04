@@ -1,121 +1,44 @@
-# Big Data Engineering — NTI Labs & Projects
+# Big Data Engineering - NTI
 
-This repository hosts a comprehensive suite of laboratory exercises, assignments, and architectural implementations completed as part of the **Big Data Engineering Program** at the **National Telecommunication Institute (NTI)**.
-
-Developed by **Ali Mersal** ([ali.m.mersal@gmail.com](mailto:ali.m.mersal@gmail.com)).
-
----
-
-## 📖 Abstract
-
-Modern big data engineering requires a solid grasp of distributed storage, parallel execution frameworks, and NoSQL databases. This repository serves as a centralized portfolio demonstrating practical proficiency across the entire Apache Hadoop ecosystem and Apache Spark.
-
-The project ranges from the fundamentals of **HDFS** partition schemes and cluster architecture to building custom **MapReduce** Python streaming jobs for large-scale text and server log analysis. It includes advanced distributed querying through **Apache HBase** and **Apache Hive** integration, as well as scalable data pipelines and window analytics leveraging **PySpark**. To top it off, a desktop administration dashboard (**Hadoop Control Center Ultimate UI**) was built using Python Tkinter to simplify the deployment, monitoring, and interaction with local HDFS clusters.
-
----
-
-## 🛠️ Technology Stack
-
-* **Distributed Storage**: Apache HDFS (Hadoop Distributed File System)
-* **Resource Management**: Apache YARN (Yet Another Resource Negotiator)
-* **NoSQL Database**: Apache HBase (Columnar distributed database)
-* **Data Warehousing**: Apache Hive & HBase-Hive Integration
-* **Data Processing & Analytics**: Apache Spark (PySpark), Python MapReduce Streaming (Mapper/Reducer)
-* **User Interface & Tooling**: Python Tkinter Desktop GUI, Jupyter Notebooks
+This repository contains lab assignments, practice exercises, and study materials completed during the Big Data Engineering track at NTI (National Telecommunication Institute).
 
 ---
 
 ## 📂 Repository Structure
 
-The repository is logically organized by technology stack modules:
+The contents are organized into different modules representing core Big Data technologies:
 
-```text
-├── HDFS/
-│   ├── Task1-ali-mersal.pdf       # HDFS architecture configuration & reports
-│   ├── final-diagram-hdfs.png     # Custom HDFS architecture workflow diagram
-│   └── gui.py                     # Hadoop Control Center Ultimate GUI application
-│
-├── Hbase/
-│   ├── HBase_Assignment.pdf       # NoSQL design, schema modeling & CLI exercises
-│   ├── HBase_Student_Lab.pdf      # Detailed steps for HBase operations
-│   └── HBase_Student_Lab- PART 2.pdf
-│
-├── Mapreduce/
-│   ├── lab 1/                     # Basic Python MapReduce (e.g. Word Count)
-│   ├── lab 2/                     # Data cleaning and filtering pipelines
-│   ├── lab 3/                     # Server logs analyzer (Apache Web Log parsing)
-│   └── lab 4/                     # Numerical aggregation and grouping jobs
-│       ├── map.py                 # Streaming Mapper
-│       ├── reduce.py              # Streaming Reducer
-│       └── output/                # Job verification screenshots & outputs
-│
-├── Spark/
-│   ├── PySpark_Lab1.pdf           # PySpark architectural foundation
-│   └── PySpark_Student_Practice_Lab.ipynb  # Interactive Spark DataFrame & SQL exercises
-│
-└── hive/
-    └── HBase & Hive Integration Case Study .pdf # Enterprise data integration guide
-```
+### 1. 🗄️ HDFS (Hadoop Distributed File System)
+*   **Concepts & Architecture**: Detailed diagram of HDFS design and mechanisms.
+*   **Implementation**: Python GUI script (`gui.py`) demonstrating HDFS operations.
+*   **Assignments**: HDFS design task report (`Task1-ali-mersal.pdf`).
+
+### 2. 🛢️ HBase
+*   **Hands-on Labs**: Detailed guides on HBase schema design and column family structures.
+*   **Assignments**: HBase practice tasks and queries (`HBase_Assignment.pdf`).
+
+### 3. 🔄 MapReduce
+Step-by-step MapReduce program implementations using Python (`map.py` & `reduce.py`):
+*   **Lab 1**: Word count / fundamental MapReduce structure.
+*   **Lab 2**: Data aggregation and filtering.
+*   **Lab 3**: Apache access log analysis and metrics extraction.
+*   **Lab 4**: Advanced data processing and transformation.
+
+### 4. ⚡ Apache Spark & PySpark
+*   **Notebooks**: PySpark interactive development and practice tasks (`PySpark_Student_Practice_Lab.ipynb`).
+*   **Reference Materials**: Practical exercise guides for PySpark (`PySpark_Lab1.pdf`).
+
+### 5. 🐝 Apache Hive
+*   **Case Study**: Integration between HBase and Apache Hive (`HBase & Hive Integration Case Study.pdf`).
 
 ---
 
-## 💻 Module Overviews
-
-### 1. HDFS & Hadoop Control Center
-* **HDFS Architecture**: Detailed analysis of NameNodes, DataNodes, Replication factors, and Write/Read pathways (`Task1-ali-mersal.pdf`).
-* **Hadoop Control Center (`HDFS/gui.py`)**: A modern desktop application with:
-  * One-click start/stop control for HDFS and YARN daemons.
-  * Real-time service status checks (`jps`).
-  * Direct filesystem explorer (browsing, uploading, downloading, and deleting files).
-  * Direct path permission modifications (`chmod`).
-  * Custom commands console with pre-loaded command templates.
-
-### 2. Apache HBase
-* Practical implementation of schema design for column-oriented databases.
-* CRUD operations, table scans, row key optimization, and versioning control.
-
-### 3. Python MapReduce Streaming
-Contains 4 standalone labs simulating industrial batch processing using MapReduce streaming:
-* **Lab 1**: Word occurrence frequency count.
-* **Lab 2**: Substring scanning, cleaning, and record filtering.
-* **Lab 3**: Processing raw Apache log records to count hits per client IP.
-* **Lab 4**: Double-pass aggregation for numerical statistics (minimum, maximum, average values).
-
-### 4. PySpark Analytics
-An intensive practice notebook (`Spark/PySpark_Student_Practice_Lab.ipynb`) focusing on:
-* **DataFrame APIs**: Selection, filters, schema-casting, and joins.
-* **Conditional Logic**: `when().otherwise()` grading structures.
-* **Window Functions**: Dynamic ranks, running totals, and partition sorting (`F.rank().over(windowSpec)`).
-* **Complex Types**: Array manipulations, flattening (`F.explode()`), and string parsing/regex functions.
-
-### 5. Hive & HBase Integration
-* Structuring data warehouses on top of active HBase tables.
-* Running SQL queries using Apache Hive that compile into underlying HBase scans, bridging the gap between transactional NoSQL databases and structured analytics.
+## 🛠️ Requirements & Tech Stack
+*   **Hadoop Ecosystem** (HDFS, MapReduce, Hive)
+*   **NoSQL Database** (Apache HBase)
+*   **Processing Engine** (Apache Spark, PySpark)
+*   **Programming Language** (Python, SQL)
 
 ---
 
-## 🚀 Getting Started
-
-### Running the Hadoop Control Center GUI
-To use the GUI console, make sure you have python3 and `tkinter` installed on your Hadoop master machine:
-```bash
-# Install tkinter
-sudo apt-get install python3-tk
-
-# Run the control center
-python HDFS/gui.py
-```
-> **Note**: Adjust the Hadoop installation paths inside the `Config` class of `gui.py` to point to your specific installation directory (Default is set to `/home/bigdata/hadoop-2.7.3`).
-
-### Running MapReduce Jobs Locally
-You can test the MapReduce streaming scripts locally without a full Hadoop cluster using:
-```bash
-cat dataset.txt | python map.py | sort | python reduce.py
-```
-
----
-
-## 📧 Contact & Info
-* **Author**: Ali Mersal
-* **Email**: [ali.m.mersal@gmail.com](mailto:ali.m.mersal@gmail.com)
-* **Institution**: National Telecommunication Institute (NTI)
+**Author:** Ali Mersal (ali.m.mersal@gmail.com)
