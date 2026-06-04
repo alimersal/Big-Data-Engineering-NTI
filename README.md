@@ -3,11 +3,11 @@
 This repository contains lab assignments, practice exercises, and study materials completed during the Big Data Engineering track at NTI (National Telecommunication Institute).
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Hadoop-HDFS-CC292B?style=for-the-badge&logo=apachehadoop&logoColor=white&labelColor=1F2937" alt="HDFS" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Apache-HBase-D44324?style=for-the-badge&logo=apache&logoColor=white&labelColor=1F2937" alt="HBase" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/MapReduce-Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=1F2937" alt="MapReduce" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Apache_Spark-PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white&labelColor=1F2937" alt="Spark" />&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Apache_Hive-SQL-C49000?style=for-the-badge&logo=apachehive&logoColor=white&labelColor=1F2937" alt="Hive" />
+  <img src="https://img.shields.io/badge/Hadoop-HDFS-CC292B?style=flat-square&logo=apachehadoop&logoColor=white&labelColor=1F2937" alt="HDFS" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Apache-HBase-D44324?style=flat-square&logo=apache&logoColor=white&labelColor=1F2937" alt="HBase" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/MapReduce-Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1F2937" alt="MapReduce" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Apache_Spark-PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white&labelColor=1F2937" alt="Spark" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Apache_Hive-SQL-C49000?style=flat-square&logo=apachehive&logoColor=white&labelColor=1F2937" alt="Hive" />
 </p>
 
 ---
