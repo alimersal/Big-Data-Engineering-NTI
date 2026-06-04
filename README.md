@@ -3,11 +3,11 @@
 This repository contains lab assignments, practice exercises, and study materials completed during the Big Data Engineering track at NTI (National Telecommunication Institute).
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Hadoop-HDFS-CC292B?style=for-the-badge&logo=apachehadoop&logoColor=white" alt="HDFS" />
-  <img src="https://img.shields.io/badge/Apache_HBase-NoSQL-D44324?style=for-the-badge&logo=apache&logoColor=white" alt="HBase" />
-  <img src="https://img.shields.io/badge/MapReduce-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="MapReduce" />
-  <img src="https://img.shields.io/badge/Apache_Spark-PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" alt="Spark" />
-  <img src="https://img.shields.io/badge/Apache_Hive-SQL-FDD835?style=for-the-badge&logo=apachehive&logoColor=black" alt="Hive" />
+  <img src="https://img.shields.io/badge/Hadoop-HDFS-CC292B?style=for-the-badge&logo=apachehadoop&logoColor=FFE01B&labelColor=1A1A1A" alt="HDFS" />
+  <img src="https://img.shields.io/badge/Apache-HBase-D44324?style=for-the-badge&logo=apache&logoColor=white&labelColor=1A1A1A" alt="HBase" />
+  <img src="https://img.shields.io/badge/MapReduce-Python-3776AB?style=for-the-badge&logo=python&logoColor=FFE873&labelColor=1A1A1A" alt="MapReduce" />
+  <img src="https://img.shields.io/badge/Apache-Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white&labelColor=1A1A1A" alt="Spark" />
+  <img src="https://img.shields.io/badge/Apache-Hive-FDD835?style=for-the-badge&logo=apachehive&logoColor=FFE01B&labelColor=1A1A1A" alt="Hive" />
 </p>
 
 ---
