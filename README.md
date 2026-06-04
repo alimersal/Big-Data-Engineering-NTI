@@ -1,27 +1,14 @@
 # Big Data Engineering - NTI
 
-<p align="center">
-  <a href="https://github.com/alimersal/Big-Data-Engineering-NTI">
-    <img src="https://img.shields.io/github/repo-size/alimersal/Big-Data-Engineering-NTI?style=flat-square&color=007ACC" alt="Repo Size" />
-  </a>
-  <a href="https://github.com/alimersal/Big-Data-Engineering-NTI">
-    <img src="https://img.shields.io/github/languages/top/alimersal/Big-Data-Engineering-NTI?style=flat-square&color=3776AB" alt="Top Language" />
-  </a>
-  <a href="https://www.python.org/">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  </a>
-  <a href="https://spark.apache.org/">
-    <img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white" alt="Apache Spark" />
-  </a>
-  <a href="https://hadoop.apache.org/">
-    <img src="https://img.shields.io/badge/Hadoop-EEEEEE?style=flat-square&logo=apachehadoop&logoColor=black" alt="Hadoop" />
-  </a>
-  <a href="mailto:ali.m.mersal@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
-</p>
-
 This repository contains lab assignments, practice exercises, and study materials completed during the Big Data Engineering track at NTI (National Telecommunication Institute).
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Hadoop-HDFS-CC292B?style=for-the-badge&logo=apachehadoop&logoColor=white" alt="HDFS" />
+  <img src="https://img.shields.io/badge/Apache_HBase-NoSQL-D44324?style=for-the-badge&logo=apache&logoColor=white" alt="HBase" />
+  <img src="https://img.shields.io/badge/MapReduce-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="MapReduce" />
+  <img src="https://img.shields.io/badge/Apache_Spark-PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" alt="Spark" />
+  <img src="https://img.shields.io/badge/Apache_Hive-SQL-FDD835?style=for-the-badge&logo=apachehive&logoColor=black" alt="Hive" />
+</p>
 
 ---
 
@@ -59,3 +46,7 @@ Step-by-step MapReduce program implementations using Python (`map.py` & `reduce.
 *   **NoSQL Database** (Apache HBase)
 *   **Processing Engine** (Apache Spark, PySpark)
 *   **Programming Language** (Python, SQL)
+
+---
+
+**Author:** Ali Mersal (ali.m.mersal@gmail.com)
